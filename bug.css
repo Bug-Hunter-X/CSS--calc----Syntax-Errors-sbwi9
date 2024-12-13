@@ -1,0 +1,13 @@
+The CSS property `calc()` is used to perform calculations. However, if there's a syntax error within the `calc()` expression, it can lead to unexpected results or the entire CSS rule being ignored.  For example, forgetting a space between operators or using incompatible units can cause issues.
+
+```css
+/* Incorrect: Missing space between + and 10px */
+width:calc(50%+10px);
+
+/* Incorrect: Mixing percentages and ems without proper nesting */
+font-size: calc(100% + 1em); 
+
+/* Correct */
+width: calc(50% + 10px);
+font-size: calc(100% + 1em);
+```
