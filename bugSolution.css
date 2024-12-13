@@ -1,0 +1,15 @@
+To fix `calc()` errors, carefully review the syntax:
+
+1. **Ensure spaces between operators:**  There must be a space between the operator (+, -, *, /) and the values.
+2. **Maintain unit consistency:** Avoid mixing incompatible units (e.g., percentages and ems directly) without proper nesting or conversion.
+3. **Use parentheses for complex calculations:** Use parentheses to clearly group expressions and ensure correct order of operations.
+
+```css
+/* Correct */
+width: calc(50% + 10px);
+height: calc(100vh - 50px);
+font-size: calc(1em + 0.5vw);
+margin: calc((100vw - 800px) / 2);
+```
+
+By adhering to these guidelines, you can write robust and reliable CSS using the `calc()` function.
