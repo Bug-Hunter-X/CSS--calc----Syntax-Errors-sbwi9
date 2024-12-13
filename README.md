@@ -1,0 +1,3 @@
+# CSS `calc()` Syntax Errors
+
+This repository demonstrates a common yet often overlooked error in CSS: incorrect syntax within the `calc()` function.  Improper spacing or unit mixing can result in unexpected rendering or the entire CSS rule being ignored by the browser.  The `bug.css` file contains examples of faulty `calc()` usage, while `bugSolution.css` presents the corrected code.  Refer to the files for specific examples of both correct and incorrect syntax.
